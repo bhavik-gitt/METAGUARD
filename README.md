@@ -1,47 +1,68 @@
 ```markdown
-# METAGUARD
+# 🛡️ METAGUARD
 
-METAGUARD is a modern security-focused platform designed to help protect digital assets, strengthen access control, and improve cyber awareness.
+> A modern, security-first frontend experience designed to communicate trust, protection, and cyber readiness.
 
-## Overview
+![Build](https://img.shields.io/badge/build-vite-646CFF?logo=vite&logoColor=white)
+![UI](https://img.shields.io/badge/UI-responsive-0ea5e9)
+![Focus](https://img.shields.io/badge/focus-cybersecurity-0f172a)
 
-This project provides a clean, responsive web application shell for a cybersecurity-oriented product. It is designed to communicate trust, protection, and modern defense through strong branding and SEO-friendly metadata.
+---
 
-## Highlights
+## ✨ Why METAGUARD
 
-- Security-focused landing experience
-- Search engine metadata for improved discoverability
-- Open Graph and Twitter card support for social sharing
-- Responsive full-height layout
-- Simple root mount for a modern frontend application
+METAGUARD presents a clean cybersecurity product interface with strong branding, modern UX, and metadata optimized for discoverability and social sharing.
 
-## Included Metadata
+---
 
-- `title`: `METAGUARD`
-- `description`: platform summary for search engines and previews
-- `keywords`: cybersecurity, digital protection, access control, threat prevention, data protection, cyber defense
-- `robots`: `index, follow`
-- `theme-color`: `#0f172a`
+## 🔍 Key Features
 
-## Social Preview
+- 🧭 **Security-focused landing experience**
+- 📱 **Responsive full-height layout**
+- 🚀 **Fast modern app shell (Vite + React)**
+- 🔎 **SEO-ready metadata**
+- 🌐 **Open Graph + Twitter cards for rich previews**
 
-The page is configured with Open Graph and Twitter metadata to improve link previews across social platforms and messaging apps.
+---
 
-## Application Shell
+## 🧱 App Shell
 
-The HTML entry point contains:
+The entry HTML provides:
 
-- A `<div id="root"></div>` mount target
-- A module script that loads `/src/main.tsx`
-- Minimal styling to ensure full-height rendering
+- `<div id="root"></div>` as the React mount point
+- Module bootstrap script loading `/src/main.tsx`
+- Minimal base styling for full-height rendering
 
-## Getting Started
+---
 
-1. Install project dependencies.
-2. Start the development server.
-3. Open the app in your browser.
+## 🏷️ Metadata Included
 
-## Purpose
+- **title**: `METAGUARD`
+- **description**: concise platform summary for search previews
+- **keywords**: cybersecurity, digital protection, access control, threat prevention, data protection, cyber defense
+- **robots**: `index, follow`
+- **theme-color**: `#0f172a`
 
-METAGUARD is intended to present a professional and trustworthy security brand while supporting a modern frontend implementation.
+---
+
+## 🛠️ Quick Start
+
+```bash
+npm install
+npm run dev
+```
+
+Then open the local URL shown in your terminal.
+
+### Production Build
+
+```bash
+npm run build
+```
+
+---
+
+## 🎯 Project Goal
+
+Deliver a professional, trustworthy, and modern cybersecurity web presence while keeping the frontend foundation simple and scalable.
 ```
